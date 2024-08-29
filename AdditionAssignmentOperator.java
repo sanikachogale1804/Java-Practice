@@ -19,9 +19,16 @@ class AdditionAssignmentOperator
 		int e=5;
 		int f=4;
 		
-		f-=e; 
-		e-=f;
+		f-=e; //f=f-e=4-5=-1
+		e-=f; //e=e-f=5-4=1
 		System.out.println(f+e);
+		
+		int g=20;
+		int h=10;
+		
+		g-=h;
+		h-=g;
+		System.out.println(h);
 		
 	}
 }
