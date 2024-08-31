@@ -30,5 +30,38 @@ class AdditionAssignmentOperator
 		h-=g;
 		System.out.println(h);
 		
+		int ram=100;
+		int shyam=70;
+		
+		ram+=(shyam-ram);   //100+-30
+		System.out.println(ram);
+		
+		int sita=50;
+		int geeta=2;
+		sita*=(sita/geeta);    //50*25
+		System.out.println(sita);
+		
+		int x=2;
+		int y=50;
+		y+=y;   //y=y+y;
+		System.out.println(y);
+		
+		int j=98;
+		int k=9;
+		j%=k;    //j=j%k   98/9
+		System.out.println(j);
+		
+		float l=105;
+		float m=10;
+		l/=m;    //105/10
+		System.out.println(l);
+		
+		int n=20;
+		int o=40;
+		n+=o;  //n=n+o=20+40;
+		n-=o;  //n=n-o=60-40=20
+	    o+=n;  //o=o+n=60
+		n-=o;  //20-60=-40
+		System.out.println(n);
 	}
 }
