@@ -12,6 +12,7 @@ class p3
 		String name=sc.next();
 		System.out.println("My name is :"+name);
 		
+		System.out.println("Enter String");
 		String sentence=sc.nextLine();
 		System.out.println("sentence is:"+sentence);
 		
