@@ -1,21 +1,24 @@
-class p10
+import java.util.Scanner;
+class p5
 {
 	public static void main(String args[])
 	{
-		int a=5100;
-		int b=20000;
-		int c=3000;
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		int c=sc.nextInt();
 		
-		if(a>b)
+		
+		if (a>b)
 		{
-		   if(a>c)	
-		   {
-			   System.out.println("a is greatest");
-		   }
-		   else
-		   {
-			   System.out.println("c is greatest");
-		   }
+			if(a>c)
+			{
+			System.out.println("a is greatest");
+			}
+			else
+			{
+				System.out.println("c is greatest");
+			}
 		}
 		else
 		{
@@ -29,4 +32,5 @@ class p10
 			}
 		}
 	}
+	
 }
