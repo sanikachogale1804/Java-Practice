@@ -1,9 +1,11 @@
 import java.util.Scanner;
-class switch1{
-	
-		Scanner sc=new Scanner(System.in);
+class switch1
+{
+	public static void main(String args[])
+	{
+	    Scanner sc=new Scanner(System.in)	;
 		int n=sc.nextInt();
-		System.out.println("1:monday 2:Tuesday 3:wednesday 4:thursday 5:friday 6:saturday 7:sunday");
+		System.out.println("1:monday 2:Tuesday 3:Wednesday 4:Thursday 5:Friday 6:Saturday 7:Sunday");
 		switch(n)
 		{
 			case 1:
@@ -27,8 +29,10 @@ class switch1{
 			case 7:
 			   System.out.println("Sunday");
 			   break;
-			default:
-			   System.out.println("No switching case");
 			   
+			default:
+			    System.out.println("no switching case");
 		}
+		
+	}
 }
