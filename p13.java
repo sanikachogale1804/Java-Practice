@@ -23,6 +23,8 @@ class p13
 			case 4:
 			System.out.println(n1/n2);
 			break;
+			default:
+			System.out.println("Invalid input");
 		}
 		
 	}
