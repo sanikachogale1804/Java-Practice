@@ -1,9 +1,10 @@
-
-class while2
+import java.util.Scanner;
+class while3
 {
 	public static void main(String args[])
 	{
-		int n=200;
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
 		int digitcount=0;
 		
 		while(n!=0)
@@ -15,7 +16,7 @@ class while2
 		
 		if(digitcount>4)
 		{
-			System.out.println("number is too large");
+			System.out.println("number is large");
 		}
 		else
 		{
