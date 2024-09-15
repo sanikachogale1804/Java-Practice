@@ -9,10 +9,10 @@ class natural_numbers
 		System.out.println("Enter ending number");
 		int e=sc.nextInt();
 		
-		while(s<=e)
+		while(s>=e)
 		{
 			System.out.println(s);
-			s++;
+			s--;
 		}
 	}
 }
