@@ -5,15 +5,15 @@ class two_dimensional_array
 		int arr[][]={{1,2,3},{4,9,5,8},{12,43,7,8,9}};
 		int sum=0;
 		
-		System.out.println(arr[0][1]);
-		System.out.println(arr[1][2]);
-		System.out.println(arr.length);
-		System.out.println("========================");
+		//System.out.println(arr[0][1]);
+		//System.out.println(arr[1][2]);
+		//System.out.println(arr.length);
+		//System.out.println("========================");
 		
 		for(int i=0;i<arr.length;i++)
 		{
-			//dout
-			for(int j=0;j<3;j++)
+			
+			for(int j=0;j<arr[i].length;j++)
 			{
 				System.out.println(arr[i][j]);
 			}
@@ -22,7 +22,7 @@ class two_dimensional_array
 		
 		//enhance loop(iteration)
 		
-		for(int n[]:arr)
+		/*for(int n[]:arr)
 		{
 			for(int numbers:n)
 			{
@@ -38,7 +38,7 @@ class two_dimensional_array
 				}
 			}
 		}
-		System.out.println(sum);
+		System.out.println(sum);*/
 		
 		
 	}
