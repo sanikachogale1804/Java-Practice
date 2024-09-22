@@ -4,6 +4,11 @@ class Product
 	String name;
 	int price;
 	
+	void productdetails()
+	{
+		System.out.println("product details");
+	}
+	
 }
 
 class classAndObjects3
@@ -18,5 +23,8 @@ class classAndObjects3
 	System.out.println(p1.id);
 	System.out.println(p1.name);
 	System.out.println(p1.price);
+	
+	p1.productdetails(id);
+	
 	}
 }
