@@ -34,6 +34,6 @@ class p19
 		Calculator c2=new Calculator();
 		c2.setvalue(100,50);
 		System.out.println(c2.num1+" "+c2.num2);
-		System.out.println(c1.num1-c1.num2);
+		System.out.println(c2.num1-c2.num2);
 	}
 }
