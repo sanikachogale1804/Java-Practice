@@ -24,7 +24,7 @@ class classAndObjects3
 	System.out.println(p1.name);
 	System.out.println(p1.price);
 	
-	p1.productdetails(id);
+	p1.productdetails();
 	
 	}
 }
