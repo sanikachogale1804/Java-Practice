@@ -1,21 +1,18 @@
-class practice
+
+class p21
 {
 	public static void main(String args[])
 	{
-		int id;
-		id=1;
-		System.out.println(id);
-		
-		String name;
-		name="sanika";
-		System.out.println(name);
-		
-		long mobile_no;
-		mobile_no=987276221;
-		System.out.println(mobile_no);
-		
-		double marks;
-		marks=89.78;
-		System.out.println(marks);
+		Number n1=new Number();
+		int num=10;
+		if(num%2==0)
+		{
+			System.out.println("even");
+		}
+		else
+		{
+			System.out.println("odd");
+		}
+		System.out.println(n1.num());
 	}
 }
