@@ -23,6 +23,10 @@ class Constructor1
 		this.Price=Price;
 		System.out.println(this.Id+" "+this.Name+" "+this.Price+" ");
 	}
+	double discount()
+	{
+		return this.Price*0.2;
+	}
 	
 }
 
@@ -40,7 +44,7 @@ class Constructor
 		System.out.println(c3.Name);
 		System.out.println(c3.Price);
         System.out.println(c2.principle);	
-
+        System.out.println("pay:"+c1.discount());	
         
 	}
 }
